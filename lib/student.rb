@@ -63,6 +63,6 @@ class Student
       SELECT * FROM students WHERE grade = 9
     SQL
 
-    DB[:conn].excute(sql)
+    DB[:conn].execute(sql)
   end
 end
